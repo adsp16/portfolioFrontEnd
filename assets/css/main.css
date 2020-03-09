@@ -206,7 +206,7 @@ a {
 
 a:hover {
 	border-bottom-color: transparent;
-	color: white !important;
+	color: black !important;
 	text-decoration: none;
 }
 
