@@ -216,12 +216,12 @@ textarea {
 a {
 	@include vendor('transition', ('color #{_duration(transition)} ease-in-out', 'border-color #{_duration(transition)} ease-in-out'));
 	border-bottom: dotted 1px;
-	color: _palette(accent1, bg);
+	color: black;
 	text-decoration: none;
 
 	&:hover {
 		border-bottom-color: transparent;
-		color: _palette(accent1, bg) !important;
+		color: black;
 		text-decoration: none;
 	}
 }
